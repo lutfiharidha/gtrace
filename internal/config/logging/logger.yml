@@ -1,0 +1,19 @@
+logger:
+    console:
+      enable: true
+      json: true
+      level: debug
+    file:
+      enable: true
+      json: true
+      level: debug
+      path: /app/logs/
+    consolePanic:
+      enable: true
+      json: true
+      level: debug
+    filePanic:
+      enable: true
+      json: true
+      level: debug
+      path: /app/logs/
